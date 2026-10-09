@@ -2,7 +2,7 @@
 
 **Sumber belajar:** [TryHackMe: Python Basics](https://tryhackme.com/room/pythonbasics)
 
-Dokumen ini berisi ringkasan materi, contoh kode, penjelasan singkat setiap task, dan flag yang sudah tercatat pada catatan sebelumnya. Flag ditulis sesuai catatan yang tersedia; jika sebuah task belum memiliki flag, bagian tersebut ditandai agar bisa dilengkapi setelah dikerjakan di TryHackMe.
+Dokumen ini berisi ringkasan materi, contoh kode, penjelasan singkat setiap task, dan flag yang sudah tercatat pada catatan sebelumnya. Flag ditulis sesuai catatan yang tersedia; jika sebuah task belum memiliki flag, bagian tersebut ditandai agar bisa dilengkapi setelah dikerjakan di TryHackMe. Penanda 🟩 digunakan agar baris flag lebih mudah ditemukan saat membaca dokumen.
 
 ---
 
@@ -32,7 +32,7 @@ print("Hello World")
 - `"Hello World"` adalah teks atau string. Teks ditulis di dalam tanda kutip.
 - Baris yang diawali `#` merupakan komentar dan tidak dijalankan sebagai kode.
 
-**Flag:** `THM{PRINT_STATEMENTS}`
+🟩 **FLAG:** `THM{PRINT_STATEMENTS}`
 
 ---
 
@@ -79,7 +79,7 @@ print(height)
 - **Boolean (`bool`)** — nilai `True` atau `False`.
 - **List (`list`)** — kumpulan item, misalnya `["apel", "jeruk"]`.
 
-**Flag:** `THM{VARIABL3S}`
+🟩 **FLAG:** `THM{VARIABL3S}`
 
 ---
 
@@ -150,7 +150,7 @@ print(total_cost)
 - Total biaya adalah `$34 + $52.80 = $86.80`.
 - Output Python: `86.8`.
 
-**Flag:** `THM{IF_STATEMENT_SHOPPING}`
+🟩 **FLAG:** `THM{IF_STATEMENT_SHOPPING}`
 
 ### Soal 2 — Ubah biaya belanja menjadi 101
 
@@ -171,7 +171,7 @@ print(total_cost)
 
 **Penjelasan:** Karena `$101` lebih dari `$100`, `shipping_cost` bernilai `0`. Total yang ditampilkan adalah `101`.
 
-**Flag:** `THM{MY_FIRST_APP}`
+🟩 **FLAG:** `THM{MY_FIRST_APP}`
 
 ---
 
@@ -201,7 +201,7 @@ for i in range(51):
 
 **Penjelasan:** `range(51)` menghasilkan angka dari `0` sampai `50`. Batas akhir `51` tidak ikut dicetak.
 
-**Flag:** `THM{L00PS_WHILE_FOR}`
+🟩 **FLAG:** `THM{L00PS_WHILE_FOR}`
 
 ---
 
@@ -242,7 +242,7 @@ bitcoin_to_usd = 24000
 
 Dengan jumlah Bitcoin `1.2`, nilai investasi menjadi `1.2 × 24000 = 28800`. Karena nilainya kurang dari `$30.000`, program menampilkan peringatan.
 
-**Flag:** `THM{BITC0IN_INVESTOR}`
+🟩 **FLAG:** `THM{BITC0IN_INVESTOR}`
 
 ---
 
@@ -267,7 +267,7 @@ Mode file lain yang dijelaskan dalam materi:
 - `a` — menambahkan teks ke akhir file.
 - `w` — menulis file; membuat file baru jika belum ada dan menimpa isi file jika sudah ada.
 
-**Flag:** `THM{F1LE_R3AD}`
+🟩 **FLAG:** `THM{F1LE_R3AD}`
 
 ---
 
@@ -295,7 +295,7 @@ print(current_time)
 
 ## Ringkasan Flag yang Tercatat
 
-| Task | Nama materi | Flag |
+| Task | Nama materi | Flag yang tercatat |
 |---|---|---|
 | 2 | Hello World | `THM{PRINT_STATEMENTS}` |
 | 3 | Mathematical Operators — penjumlahan | `THM{ADDITI0N}` |
