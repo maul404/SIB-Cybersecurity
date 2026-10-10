@@ -1,0 +1,14 @@
+=== HASIL PORT SCANNER ===
+Target: 127.0.0.1
+----------------------------------------
+Port 21: CLOSED
+Port 22: CLOSED
+Port 23: CLOSED
+Port 25: CLOSED
+Port 53: CLOSED
+Port 80: CLOSED
+Port 443: CLOSED
+Port 3306: CLOSED
+Port 8080: CLOSED
+----------------------------------------
+Scan selesai!
