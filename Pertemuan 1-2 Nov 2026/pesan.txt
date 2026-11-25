@@ -1,1 +1,0 @@
-Ini adalah data rahasia untuk pengujian enkripsi AES-256.
